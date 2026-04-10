@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj": {}
+    "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj": {}
   },
   "projects": {
-    "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj": {
+    "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj",
+        "projectUniqueName": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj",
         "projectName": "ovningsuppgift_todo-app-blazor-server",
-        "projectPath": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj",
-        "packagesPath": "/home/dev/.nuget/packages/",
-        "outputPath": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/obj/",
+        "projectPath": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj",
+        "packagesPath": "/Users/astridskoglund/.nuget/packages/",
+        "outputPath": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/dev/.nuget/NuGet/NuGet.Config"
+          "/Users/astridskoglund/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,7 +47,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )",
+              "version": "[10.0.2, )",
               "autoReferenced": true
             }
           },
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.105/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

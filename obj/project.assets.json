@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.5": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -15,10 +15,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.5": {
-      "sha512": "Oxw9Ps1/nd6c/EMCAI13AeJFEqXezAvCEOshMjUWmL7LeGirHJNzytR2e/3jINYg0j2TmPvNUowGHf+gp8zDSQ==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.2": {
+      "sha512": "fMAqrUm+aspxRAsCJ6Hlgs96XSHwNIr9HBNt7wyBAzQkPlfE7w+0C4NzDoJnso5YZyDI0VcRtEXxG9odt3KiZA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.5",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -34,36 +34,35 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.2.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.5"
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.2"
     ]
   },
   "packageFolders": {
-    "/home/dev/.nuget/packages/": {}
+    "/Users/astridskoglund/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj",
+      "projectUniqueName": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj",
       "projectName": "ovningsuppgift_todo-app-blazor-server",
-      "projectPath": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj",
-      "packagesPath": "/home/dev/.nuget/packages/",
-      "outputPath": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/obj/",
+      "projectPath": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj",
+      "packagesPath": "/Users/astridskoglund/.nuget/packages/",
+      "outputPath": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dev/.nuget/NuGet/NuGet.Config"
+        "/Users/astridskoglund/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -91,7 +90,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.5, )",
+            "version": "[10.0.2, )",
             "autoReferenced": true
           }
         },
@@ -114,7 +113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.105/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

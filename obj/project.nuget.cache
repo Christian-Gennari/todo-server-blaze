@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wNAgwArLn2Q=",
+  "dgSpecHash": "FvkexlpMZj4=",
   "success": true,
-  "projectFilePath": "/home/dev/projects/_school-projects/webbapplikationer-i-csharp-asp.net/ovningsuppgift_todo-app-blazor-server/ovningsuppgift_todo-app-blazor-server.csproj",
+  "projectFilePath": "/Users/astridskoglund/Documents/GitHub/todo-server-blaze/ovningsuppgift_todo-app-blazor-server.csproj",
   "expectedPackageFiles": [
-    "/home/dev/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.5/microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512"
+    "/Users/astridskoglund/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.2/microsoft.aspnetcore.app.internal.assets.10.0.2.nupkg.sha512"
   ],
   "logs": []
 }
