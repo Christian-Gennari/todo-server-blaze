@@ -2,6 +2,16 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="wrapper">
+    <button class="add-input" @onclick="AddTask">Skapa ny</button>
 
-Welcome to your new app.
+    <div class="input-wrapper">
+        @foreach(var task in tasks)
+        {
+            <div class="task-row">
+                <input class="@(task.IsChecked ? "readonly-text" : "input-text")" readonly="@task.IsChecked" value="@task.Text" @onchange="e => UpdateTask(task, e.Value?.ToString())" />
+                <input class="checkbox" type="checkbox" checked="@task.IsChecked" @onchange="e => UpdateCheck(task, e.Value is bool isChecked && isChecked)" />
+            </div>
+        }
+    </div>
+</div>

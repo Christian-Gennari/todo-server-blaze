@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ovningsuppgift_todo-app-blazor-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28fbb5e611b19300dd91cbe5757dd46b4dbdc38f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25a02a86a5dbc7424c1781c191363fb76276c4f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ovningsuppgift_todo-app-blazor-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ovningsuppgift_todo-app-blazor-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
