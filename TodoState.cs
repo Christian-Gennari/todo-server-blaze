@@ -19,7 +19,5 @@ namespace TodoServerBlaze
             todo.IsChecked = true;
             NotifyStateChanged();
         }
-
     }
-
 }
