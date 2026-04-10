@@ -1,4 +1,5 @@
 ﻿@inject TodoState todoState
+@rendermode InteractiveServer
 @page "/"
 
 <PageTitle>Home</PageTitle>
@@ -13,11 +14,11 @@
                 <input class="
                     @(task.IsChecked ? "readonly-text" : "input-text")"
                      readonly="@task.IsChecked"
-                     value="@task.Content" @onchange="e => todoState.AddTodo(task)" />
+                     @bind="@task.Content" @bind:after="todoState.NotifyStateChanged" />
                 <input 
                     class="checkbox" 
                     type="checkbox" 
-                    checked="@task.IsChecked" @onchange="e => todoState.AddCheck(task)" />
+                    @bind="@task.IsChecked" @bind:after="todoState.NotifyStateChanged" />
             </div>
         }
     </div>
