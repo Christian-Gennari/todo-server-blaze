@@ -18,6 +18,17 @@ public class TodoState
         todo.IsChecked = true;
         NotifyStateChanged();
     }
+    public void CreateNew()
+    {
+        var todo = new TodoDTO()
+        {
+            Content = "",
+            IsChecked = false,
+        };
+
+        Todos.Add(todo);
+        NotifyStateChanged();
+    }
 
 }
 
