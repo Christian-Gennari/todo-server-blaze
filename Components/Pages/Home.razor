@@ -1,4 +1,5 @@
-﻿@page "/"
+﻿@inject TodoState todoState
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
@@ -6,11 +7,18 @@
     <button class="add-input" @onclick="AddTask">Skapa ny</button>
 
     <div class="input-wrapper">
-        @foreach(var task in tasks)
+        @foreach(var task in todoState.Todos)
         {
             <div class="task-row">
-                <input class="@(task.IsChecked ? "readonly-text" : "input-text")" readonly="@task.IsChecked" value="@task.Text" @onchange="e => UpdateTask(task, e.Value?.ToString())" />
-                <input class="checkbox" type="checkbox" checked="@task.IsChecked" @onchange="e => UpdateCheck(task, e.Value is bool isChecked && isChecked)" />
+                <input class="
+                    @(task.IsChecked ? "readonly-text" : "input-text")"
+                     readonly="@task.IsChecked"
+                     value="@task.Content" @onchange="e => todoState.AddTodo
+                     k(task, e.Value?.ToString())" />
+                <input 
+                    class="checkbox" 
+                    type="checkbox" 
+                    checked="@task.IsChecked" @onchange="e => UpdateCheck(task, e.Value is bool isChecked && isChecked)" />
             </div>
         }
     </div>
