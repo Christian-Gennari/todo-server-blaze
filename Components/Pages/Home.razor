@@ -4,7 +4,7 @@
 <PageTitle>Home</PageTitle>
 
 <div class="wrapper">
-    <button class="add-input" @onclick="AddTask">Skapa ny</button>
+    <button class="add-input" @onclick="todoState.AddTodo()">Skapa ny</button>
 
     <div class="input-wrapper">
         @foreach(var task in todoState.Todos)
@@ -13,13 +13,28 @@
                 <input class="
                     @(task.IsChecked ? "readonly-text" : "input-text")"
                      readonly="@task.IsChecked"
-                     value="@task.Content" @onchange="e => todoState.AddTodo
-                     k(task, e.Value?.ToString())" />
+                     value="@task.Content" @onchange="e => todoState.AddTodo(task)" />
                 <input 
                     class="checkbox" 
                     type="checkbox" 
-                    checked="@task.IsChecked" @onchange="e => UpdateCheck(task, e.Value is bool isChecked && isChecked)" />
+                    checked="@task.IsChecked" @onchange="e => todoState.AddCheck(task)" />
             </div>
         }
     </div>
 </div>
+
+@code {
+    protected override void OnInitialized()
+    {
+       todoState.OnChange += OnChangeCallback;
+    }
+
+    private void OnChangeCallback() {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose() {
+        todoState.OnChange -= OnChangeCallback;
+    }
+
+}

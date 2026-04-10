@@ -12,6 +12,12 @@ public class TodoState
         NotifyStateChanged();
     }
 
+    public void AddCheck(TodoDTO todo)
+    {
+        todo.IsChecked = true;
+        NotifyStateChanged();
+    }
+
 }
     
 public class TodoDTO
