@@ -480,3 +480,17 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+obj/ovningsuppgift_todo-app-blazor-server.csproj.nuget.dgspec.json
+obj/ovningsuppgift_todo-app-blazor-server.csproj.nuget.dgspec.json
+obj/ovningsuppgift_todo-app-blazor-server.csproj.nuget.g.props
+obj/ovningsuppgift_todo-app-blazor-server.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net10.0/apphost
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.AssemblyInfo.cs
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.AssemblyInfoInputs.cache
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.assets.cache
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.AssemblyInfoInputs.cache
+obj/Debug/net10.0/ovningsuppgift_todo-app-blazor-server.AssemblyInfo.cs
+obj/Debug/net10.0/apphost
