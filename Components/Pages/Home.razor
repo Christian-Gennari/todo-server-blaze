@@ -1,4 +1,5 @@
 ﻿@inject TodoState todoState
+@using TodoServerBlaze
 @rendermode InteractiveServer
 @page "/"
 
@@ -19,6 +20,7 @@
                     class="checkbox" 
                     type="checkbox" 
                     @bind="@task.IsChecked" @bind:after="todoState.NotifyStateChanged" />
+                    <button class="delBtn" @onclick="() => DeleteTodo(task)">X</button>
             </div>
         }
     </div>
@@ -44,4 +46,9 @@
         var newtodo = new TodoDTO("", false);
         todoState.AddTodo(newtodo);
     }
+    private void DeleteTodo(TodoDTO dto)
+    {
+        todoState.RemoveTodo(dto);
+    }
+     
 }

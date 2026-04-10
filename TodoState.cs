@@ -19,5 +19,11 @@ namespace TodoServerBlaze
             todo.IsChecked = true;
             NotifyStateChanged();
         }
+        public void RemoveTodo(TodoDTO todo)
+        {
+            Todos.Remove(todo);
+            NotifyStateChanged();
+        }
+
     }
 }

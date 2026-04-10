@@ -3,6 +3,16 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.delBtn {
+    width: 2em;
+    height: 2em;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
