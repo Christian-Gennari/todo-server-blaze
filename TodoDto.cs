@@ -1,4 +1,4 @@
-namespace ovningsuppgift_todo_app_blazor_server
+namespace TodoServerBlaze
 {
 
     public class TodoDTO(string? content, bool isChecked)

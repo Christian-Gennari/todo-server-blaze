@@ -1,4 +1,4 @@
-using ovningsuppgift_todo_app_blazor_server.Components;
+using TodoServerBlaze.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
