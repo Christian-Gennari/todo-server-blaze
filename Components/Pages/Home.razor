@@ -15,7 +15,7 @@
                 <input class="
                     @(task.IsChecked ? "readonly-text" : "input-text")"
                      readonly="@task.IsChecked"
-                     @bind="@task.Content" @bind:after="todoState.NotifyStateChanged" @bind:event="oninput" />
+                     @bind="@task.Content" @bind:after="todoState.NotifyStateChanged" disabled="@task.IsChecked" @bind:event="oninput" />
                 <input 
                     class="checkbox" 
                     type="checkbox" 
